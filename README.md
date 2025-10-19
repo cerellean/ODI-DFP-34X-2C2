@@ -24,3 +24,8 @@ MACKEY：hsgq1.9a+大写的光猫 MAC 地址的小写 md5 值，如 MAC 地址�
 OUI：配置值为 111111，这个配置在任何文档中均未提到，但是实际影响到了拨号，未配置之前拨号一直没有响应，配置后可以成功拨号（或许和其他配置有关）
 
 其他配置：非必须，参考图片内容进行配置即可（如果拨号失败建议修改为一样的）
+<img width="2128" height="1966" alt="image" src="https://github.com/user-attachments/assets/1f2a328f-1c68-4a86-b48f-a08e094fb0f1" />
+
+# 配置 VLAN
+选择 VLAN 设置，将 VLAN 改为手动，PVID 填写光猫的 INTERNET 的 VLAN ID，北京联通为 3961
+<img width="2110" height="1942" alt="image" src="https://github.com/user-attachments/assets/d653958c-b8cc-4b65-b790-1950b01b6818" />
